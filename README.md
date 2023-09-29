@@ -2,6 +2,7 @@
 - This repository contains source code for my VTI DevOps course.
 # 2. Project
 ## 2.1 Overview
+```mermaid
 ---
 title: CI/CD Workflow
 ---
@@ -23,6 +24,7 @@ flowchart TB
 
     push-new-k8s-change-to-git --> git-repo
     detect-new-changes-in-k8s-folder --> git-repo
+```
 
 ## 2.2 Task
 -Setup a CI/CD pipeline by using Jenkins.
