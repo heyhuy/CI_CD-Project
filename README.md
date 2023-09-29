@@ -27,6 +27,6 @@ flowchart TB
 ```
 
 ## 2.2 Task
--Setup a CI/CD pipeline by using Jenkins.
--(Optional) Host the Jenkins with Docker server on AWS EC2.
--Provision a K8s cluster on AWS EKS Service
+ - Setup a CI/CD pipeline by using Jenkins.
+ - (Optional) Host the Jenkins with Docker server on AWS EC2.
+ - Provision a K8s cluster on AWS EKS Service
