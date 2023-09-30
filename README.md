@@ -27,7 +27,15 @@ flowchart TB
 ```
 
 ## 2.2 Task
- - Setup a CI/CD pipeline by using Jenkins.
- - (Optional) Host the Jenkins with Docker server on AWS EC2 and Provision a K8s cluster on AWS EKS Service by using Terraform.
+ - Jenkins Runner configuration
+ - (Optional) Host the Jenkins with Docker server on AWS EC2 by using Terraform.
+ - WebHook configuration
+ - Dockerizing python application
+ - k8s Manifest file creation
+ - Connect Kubetnetes node to ArgoCD
+ - Connect private Github Repo to ArgoCD for CD part
+ - Trigger CD Jenkins Job using Curl command and Pass variable from CI pipelines
+
+
 
 
