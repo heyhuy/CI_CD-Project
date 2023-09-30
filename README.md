@@ -10,7 +10,7 @@ flowchart TB
     subgraph github-action[Github Action]
       commit-code[Commit Code] -->
       build-push-docker-image[Build/Push Docker Image] -->
-      make-changes-in-k8s-folder[Make changes in k8s folder] -->
+      make-changes-in-k8s[Make changes in k8s folder] -->
       push-new-k8s-change-to-git[Push new k8s changes to git]
     end
 
@@ -18,12 +18,12 @@ flowchart TB
     end
 
     subgraph argocd[Argocd]
-      detect-new-changes-in-k8s[Detect new changes in k8s folder] -->
+      detect-new-changes-in-k8s[Detect new changes in k8s ] -->
       apply-k8s-changes[Apply k8s changes]
     end
 
     push-new-k8s-change-to-git --> git-repo
-    detect-new-changes-in-k8s-folder --> git-repo
+    detect-new-changes-in-k8s --> git-repo
 ```
 
 ## 2.2 Task
