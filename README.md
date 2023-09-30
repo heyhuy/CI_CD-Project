@@ -18,7 +18,7 @@ flowchart TB
     end
 
     subgraph argocd[Argocd]
-      detect-new-changes-in-k8s-folder[Detect new changes in k8s folder] -->
+      detect-new-changes-in-k8s[Detect new changes in k8s folder] -->
       apply-k8s-changes[Apply k8s changes]
     end
 
@@ -28,5 +28,6 @@ flowchart TB
 
 ## 2.2 Task
  - Setup a CI/CD pipeline by using Jenkins.
- - (Optional) Host the Jenkins with Docker server on AWS EC2.
- - Provision a K8s cluster on AWS EKS Service
+ - (Optional) Host the Jenkins with Docker server on AWS EC2 and Provision a K8s cluster on AWS EKS Service by using Terraform.
+
+

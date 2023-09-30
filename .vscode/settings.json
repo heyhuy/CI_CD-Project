@@ -1,0 +1,19 @@
+{
+    "jenkins-runner.jobs": {
+        "pipeline-CI_CD": {
+            "isDefault": true,
+            "runWith": "jenkins-master",
+            "name": "pipeline-CI_CD",
+        },
+    },
+    "jenkins-runner.hostConfigs": {
+        "jenkins-master": {
+            "url": "http://50.19.171.233:8080",
+            "user": "admin",
+            "password": "admin",
+            "useCrumbIssuer": false,
+            "rejectUnauthorizedCert": false
+        }
+    }
+
+}
