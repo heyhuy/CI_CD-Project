@@ -10,7 +10,7 @@ flowchart TB
     subgraph github-action[Github Action]
       commit-code[Commit Code] -->
       build-push-docker-image[Build/Push Docker Image] -->
-      make-changes-in-k8s[Make changes in k8s folder] -->
+      make-changes-in-k8s[Make changes in k8s] -->
       push-new-k8s-change-to-git[Push new k8s changes to git]
     end
 
